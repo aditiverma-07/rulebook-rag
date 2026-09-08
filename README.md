@@ -231,4 +231,4 @@ python scripts/evaluate.py
 =======
 # rulebook-rag
 A grounded Rulebook QA system using RAG, semantic retrieval, conflict detection, and FastAPI.
->>>>>>> c3699b2ebcd1d547ffee95c8003a3b7e571d8e03
+
