@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rulebook QA</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <h1>Rulebook QA</h1>
+            <p class="subtitle">Ask questions. Trace the rule. Detect contradictions.</p>
+            <span class="badge">University Academic & Student Regulations 2026</span>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <h2>Ask the Rulebook</h2>
+            <form id="ask-form">
+                <div class="input-group">
+                    <label for="query-input" class="sr-only">Ask a question about the regulations</label>
+                    <input type="text" id="query-input" placeholder="Ask a question about the regulations..." autocomplete="off" required>
+                    <button type="submit" id="submit-btn">Ask Rulebook</button>
+                </div>
+            </form>
+
+            <div class="example-queries">
+                <p>Example questions:</p>
+                <ul>
+                    <li><button class="example-btn">What is the minimum attendance requirement?</button></li>
+                    <li><button class="example-btn">When does the Add/Drop period close?</button></li>
+                    <li><button class="example-btn">What happens if I lose my student ID card?</button></li>
+                    <li><button class="example-btn">What is the attendance condonation limit?</button></li>
+                    <li><button class="example-btn">Can I pay my tuition fees using a credit card?</button></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="loading-state" class="hidden">
+            <div class="spinner"></div>
+            <p id="loading-text">Searching and evaluating the rulebook...</p>
+        </section>
+
+        <section id="result-area" class="hidden">
+            <div id="status-banner" class="status-banner">
+                <!-- Status text injected here -->
+            </div>
+            
+            <div id="answer-container" class="answer-container hidden">
+                <p id="answer-text"></p>
+            </div>
+
+            <div id="evidence-container" class="evidence-container hidden">
+                <h3 id="evidence-title">Supporting Evidence</h3>
+                <div id="evidence-list" class="evidence-list">
+                    <!-- Cards injected here -->
+                </div>
+            </div>
+            
+            <div id="error-container" class="error-container hidden">
+                <p id="error-text"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

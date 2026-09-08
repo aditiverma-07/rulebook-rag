@@ -1,0 +1,35 @@
+[
+    {
+        "conflict_id": "C001",
+        "topic": "Attendance Condonation Limit",
+        "source_1": "01_academic_regulations.md",
+        "section_1": "3.2 Attendance Shortage and Condonation",
+        "statement_1": "The Principal may condone an attendance shortage of up to 10% for valid medical reasons.",
+        "source_2": "04_financial_and_administrative.pdf",
+        "section_2": "2.1 Condonation of Attendance Shortage",
+        "statement_2": "Students seeking attendance condonation may be granted a waiver up to 15% upon payment of the condonation fee.",
+        "explanation": "Markdown says up to 10% condonation is allowed, while PDF says up to 15%."
+    },
+    {
+        "conflict_id": "C002",
+        "topic": "Medical Leave Documentation Deadline",
+        "source_1": "01_academic_regulations.md",
+        "section_1": "4.5 Medical Leave Documentation Deadline",
+        "statement_1": "Students must submit valid medical documentation within 7 calendar days of returning to campus.",
+        "source_2": "02_student_conduct.md",
+        "section_2": "8.2 Procedure for Handling Malpractice and Absences",
+        "statement_2": "Any medical certificate supporting an absence must be filed with the disciplinary committee within 5 working days.",
+        "explanation": "01_academic_regulations says 7 calendar days for medical documentation, while 02_student_conduct says 5 working days."
+    },
+    {
+        "conflict_id": "C003",
+        "topic": "Autumn Semester Fee Deadline",
+        "source_1": "fee_schedule.csv",
+        "section_1": "Autumn Semester Tuition row",
+        "statement_1": "Deadline is September 10, 2026",
+        "source_2": "04_financial_and_administrative.pdf",
+        "section_2": "1.2 Fee Deadlines and Penalties",
+        "statement_2": "All students must complete their autumn semester fee payments on or before September 15, 2026, without penalty.",
+        "explanation": "CSV lists deadline as Sept 10, but PDF lists it as Sept 15."
+    }
+]

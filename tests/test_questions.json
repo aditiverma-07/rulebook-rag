@@ -1,0 +1,205 @@
+[
+    {
+        "id": "QA001",
+        "question": "What is the minimum attendance required without condonation?",
+        "expected_type": "answered",
+        "expected_sources": ["01_academic_regulations.md"]
+    },
+    {
+        "id": "QA002",
+        "question": "When does the Add/Drop period close?",
+        "expected_type": "answered",
+        "expected_sources": ["01_academic_regulations.md"]
+    },
+    {
+        "id": "QA003",
+        "question": "What grade is given if a student withdraws before the eighth week?",
+        "expected_type": "answered",
+        "expected_sources": ["01_academic_regulations.md"]
+    },
+    {
+        "id": "QA004",
+        "question": "Who is responsible for maintaining attendance records?",
+        "expected_type": "answered",
+        "expected_sources": ["01_academic_regulations.md"]
+    },
+    {
+        "id": "QA005",
+        "question": "What is the late fine for overdue library books?",
+        "expected_type": "answered",
+        "expected_sources": ["03_library_and_facilities.md"]
+    },
+    {
+        "id": "QA006",
+        "question": "What is the curfew time for hostels on weekdays?",
+        "expected_type": "answered",
+        "expected_sources": ["02_student_conduct.md"]
+    },
+    {
+        "id": "QA007",
+        "question": "What constitutes examination malpractice?",
+        "expected_type": "answered",
+        "expected_sources": ["02_student_conduct.md"]
+    },
+    {
+        "id": "QA008",
+        "question": "How much is the Revaluation Application Fee?",
+        "expected_type": "answered",
+        "expected_sources": ["fee_schedule.csv"]
+    },
+    {
+        "id": "QA009",
+        "question": "What is the minimum CGPA required to retain a scholarship?",
+        "expected_type": "answered",
+        "expected_sources": ["04_financial_and_administrative.pdf"]
+    },
+    {
+        "id": "QA010",
+        "question": "What happens if a student misses a disciplinary hearing without documentation?",
+        "expected_type": "answered",
+        "expected_sources": ["02_student_conduct.md"]
+    },
+    {
+        "id": "QC001",
+        "question": "What is the maximum percentage of attendance shortage that can be condoned?",
+        "expected_type": "conflict",
+        "conflict_id": "C001"
+    },
+    {
+        "id": "QC002",
+        "question": "How many days do I have to submit a medical certificate after returning to campus?",
+        "expected_type": "conflict",
+        "conflict_id": "C002"
+    },
+    {
+        "id": "QC003",
+        "question": "What is the exact deadline to pay the autumn semester fee without penalty?",
+        "expected_type": "conflict",
+        "conflict_id": "C003"
+    },
+    {
+        "id": "QN001",
+        "question": "Can I bring a smartwatch into the examination hall?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN002",
+        "question": "What is the process for changing my hostel room after a roommate dispute?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN003",
+        "question": "Does the university provide reimbursement for conference travel?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN004",
+        "question": "Can students take a semester abroad?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN005",
+        "question": "What happens if I lose my student ID card?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN006",
+        "question": "Is there a dress code for attending regular classes?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN007",
+        "question": "Can I park my personal car on the university campus?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN008",
+        "question": "Are pets allowed inside the hostel rooms?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN009",
+        "question": "What is the procedure to apply for an internship semester?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN010",
+        "question": "Do you provide a student discount for public transportation?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN011",
+        "question": "How can I apply for a student loan through the university?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN012",
+        "question": "What is the fine for breaking a test tube in the chemistry lab?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN013",
+        "question": "Is smoking permitted anywhere on the campus grounds?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN014",
+        "question": "Can I change my undergraduate major in the second year?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN015",
+        "question": "Are visitors allowed in the hostel during daytime?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN016",
+        "question": "How do I join the university sports teams?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN017",
+        "question": "What is the policy for participating in political protests on campus?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN018",
+        "question": "Does the medical center provide dental services?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN019",
+        "question": "Is there a limit on the number of pages I can print in the library?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN020",
+        "question": "Can I pay my tuition fees using a credit card?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN021",
+        "question": "What are the working hours of the university cafeteria?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN022",
+        "question": "Is financial aid available for international students?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN023",
+        "question": "How do I request an official transcript to be sent to a foreign university?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN024",
+        "question": "Can a student's parent submit an assignment on their behalf?",
+        "expected_type": "not_covered"
+    },
+    {
+        "id": "QN025",
+        "question": "Can I pay fees using cryptocurrency?",
+        "expected_type": "not_covered"
+    }
+]

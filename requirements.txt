@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+sentence-transformers
+numpy
+python-dotenv
+pdfplumber
+pandas
+pytest
+requests
+httpx
