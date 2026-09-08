@@ -228,7 +228,7 @@ python scripts/evaluate.py
 
 ### Known Limitations
 - **Guardrail False Positives**: The strict vocabulary guardrails in the Decision Engine currently struggle with "deceptively simple" NOT_COVERED queries that share heavy keyword overlap with unrelated corpus sections (e.g., questions about "credit card fees" pull in generic "fee payment" documents). These queries incorrectly bypass the NOT_COVERED trap and trigger an ANSWERED evaluation (leading to the 92.1% accuracy cap). Solving this requires transitioning from heuristic thresholds to LLM-in-the-loop validation for the decision phase, trading latency for semantic reasoning.
-=======
+  
 # rulebook-rag
 A grounded Rulebook QA system using RAG, semantic retrieval, conflict detection, and FastAPI.
 
