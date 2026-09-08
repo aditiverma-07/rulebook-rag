@@ -197,13 +197,9 @@ The system features a polished, responsive, Vanilla HTML/CSS/JS frontend to inte
 ### Answered Query
 ![Answered Query](screenshots/answered.png)
 
-### Conflict Query
-
-
 ### Not Covered Query
 ![Not Covered Query](screenshots/not_covered.png)
 
----
 
 ## Testing & Evaluation
 The project includes a robust automated test suite (Pytest) and a dedicated system evaluator measuring retrieval accuracy, classification precision, and local inference latency.
