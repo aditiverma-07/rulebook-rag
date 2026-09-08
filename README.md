@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Rulebook RAG: The Rulebook That Argues With Itself
 
 ## Problem Statement
