@@ -193,7 +193,15 @@ The system features a polished, responsive, Vanilla HTML/CSS/JS frontend to inte
 - "What is the attendance condonation limit?" *(Expected: CONFLICT)*
 
 ### 📸 Screenshots
-*(Placeholder for UI screenshots: Answered, Conflict, and Not Covered states)*
+
+### Answered Query
+![Answered Query](screenshots/answered.png)
+
+### Conflict Query
+
+
+### Not Covered Query
+![Not Covered Query](screenshots/not_covered.png)
 
 ---
 
